@@ -10,6 +10,18 @@ export function HomeServices() {
                         <div className="flex flex-col justify-center items-center gap-4">
                             <h1 className="text-black text-[50px] lg:text-[60px] text-center">{item.title}</h1>
                             <p className="text-[#5A5A5A] text-base lg:text-xl text-center w-full lg:max-w-[951px]">{item.description}</p>
+                            <figure>
+                                {item.cards.map((card, idx) => {
+                                    return (
+                                        <div key={idx}>
+                                            <figure className="flex flex-col justify-start gap-6">
+                                                <h1>{card.title}</h1>
+                                                <p>{card.description}</p>
+                                            </figure>
+                                        </div>
+                                    )
+                                })}
+                            </figure>
                         </div>
                     </div>
                 )
