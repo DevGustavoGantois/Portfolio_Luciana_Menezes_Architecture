@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lato, Bodoni_Moda_SC } from "next/font/google";
 import "./globals.css";
+import { Navbar } from "./global/navbar";
 
 const lato = Lato({
   variable: "--font-lato",
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body
         className={`${lato.variable} ${bodoniModaSC.variable} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>

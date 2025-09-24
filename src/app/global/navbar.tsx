@@ -1,30 +1,47 @@
+
 import Image from "next/image";
 import Link from "next/link";
+import { navbarData } from "../data/v-data";
 
 export function Navbar() {
-    return (
-        <header className="w-full">
-        <nav className="max-w-[1440px] mx-auto p-8">
-            <div className="flex items-center justify-between">
-                <Link href="/">
-                <Image src={item.logo} width={200} height={200} alt="" />
-                </Link>
-                <ul className="flex items-center justify-center gap-12">
-                    <li className="text-[#5A5A5A] transition-all duration-700 hover:translate-y-2">
-                      <Link href={item.href}>
-                        {item.name}
-                      </Link>
-                    </li>
-                </ul>
-            <div className="w-full">
-                <button className="bg-black rounded-xs text-white text-xl text-center">
-                    <Link href={item.href} target="_blank">
-                        {item.btnText}
-                    </Link>
-                </button>
+  return (
+    <header className="w-full">
+      <nav className="max-w-[1440px] mx-auto p-8">
+        {navbarData.map((nav, index) => (
+          <div
+            key={index}
+            className="flex items-center justify-between w-full"
+          >
+            <Link href="/">
+              <Image src={nav.logo} width={200} height={200} alt="Logo" />
+            </Link>
+            <ul className="flex items-center justify-center gap-12">
+              {nav.navItems
+                .filter((item) => !item.btnText)
+                .map((item, idx) => (
+                  <li
+                    key={idx}
+                    className="text-[#5A5A5A] transition-all duration-700 hover:-translate-y-2"
+                  >
+                    <Link href={item.href}>{item.name}</Link>
+                  </li>
+                ))}
+            </ul>
+            <div className="relative">
+              {nav.navItems
+                .filter((item) => item.btnText)
+                .map((item, idx) => (
+                  <button
+                    key={idx}
+                    className="bg-black text-white text-xl px-6 py-2 transition-all cursor-pointer duration-700 hover:scale-[1.05] hover:text-black hover:bg-white hover:shadow-2xl"
+                  >
+                    <Link href={item.href}>{item.btnText}</Link>
+                  </button>
+                ))}
             </div>
-            </div>
-        </nav>
-        </header>
-    )
+          </div>
+        ))}
+      </nav>
+    </header>
+  );
 }
