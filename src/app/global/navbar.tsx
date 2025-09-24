@@ -2,11 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { navbarData } from "../data/v-data";
+import { NavbarMobile } from "./navbar-mobile";
 
 export function Navbar() {
   return (
     <header className="w-full border-b border-gray-300">
-      <nav className="max-w-[1440px] mx-auto p-8">
+      <nav className="max-w-[1440px] mx-auto p-8 hidden lg:flex">
         {navbarData.map((nav, index) => (
           <div
             key={index}
@@ -42,6 +43,9 @@ export function Navbar() {
           </div>
         ))}
       </nav>
+      <div className="flex lg:hidden">
+        <NavbarMobile />
+      </div>
     </header>
   );
 }
