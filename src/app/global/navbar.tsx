@@ -5,7 +5,7 @@ import { navbarData } from "../data/v-data";
 
 export function Navbar() {
   return (
-    <header className="w-full">
+    <header className="w-full border-b border-gray-300">
       <nav className="max-w-[1440px] mx-auto p-8">
         {navbarData.map((nav, index) => (
           <div
@@ -13,7 +13,7 @@ export function Navbar() {
             className="flex items-center justify-between w-full"
           >
             <Link href="/">
-              <Image src={nav.logo} width={200} height={200} alt="Logo" />
+              <Image src={nav.logo} width={55} height={80} alt="Logo" />
             </Link>
             <ul className="flex items-center justify-center gap-12">
               {nav.navItems
