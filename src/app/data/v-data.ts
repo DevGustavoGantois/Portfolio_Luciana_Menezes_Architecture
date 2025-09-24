@@ -28,7 +28,13 @@ export const navbarData = [
             }
         ]
     }
-]
+];
+
+export const aboutData = {
+    title: "Sobre mim",
+    description: "Me chamo Luciana Menezes estou no 4 semestre de arquitetura e urbanismo tenho grande interesse por projetos estruturais, buscando sempre unir funcionalidade e beleza arquitetônica.",
+    btnText: "Saiba mais",
+}
 
 export const contactData = {
     href: "#",
