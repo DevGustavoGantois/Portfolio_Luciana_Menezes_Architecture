@@ -14,9 +14,9 @@ export function HomeServices() {
                                 {item.cards.map((card, idx) => {
                                     return (
                                         <div key={idx}>
-                                            <figure className="flex flex-col justify-start gap-6">
-                                                <h1>{card.title}</h1>
-                                                <p>{card.description}</p>
+                                            <figure className="flex flex-col justify-start gap-6 border lg:border-l-gray-200 border-t-gray-200">
+                                                <h1 className="text-black text-[36px] font-medium">{card.title}</h1>
+                                                <p className="text-[#5A5A5A] text-start w-full lg:max-w-[323px] text-base lg:text-xl">{card.description}</p>
                                             </figure>
                                         </div>
                                     )
