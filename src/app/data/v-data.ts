@@ -71,7 +71,7 @@ export const footerData = [
     {
         logo: "Logo-white.svg",
         href: "/",
-        imgBg: "",
+        imgBg: "/project1.png",
         description: "Criando espaços únicos que unem estética, funcionalidade e identidade, projetados para refletir a personalidade de cada cliente e proporcionar experiências memoráveis em cada detalhe arquitetônico.",
         navLinks: [
             {
