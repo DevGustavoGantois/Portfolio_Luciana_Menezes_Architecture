@@ -1,13 +1,17 @@
+import Image from "next/image";
 import { serviceData } from "./data/v-data";
 
 export function HomeServices() {
   return (
     <section
       id="services"
-      className="max-w-[1440px] mx-auto px-6 lg:px-8 py-12 lg:py-24"
+      className="max-w-[1440px] mx-auto px-6 lg:px-8 py-12 lg:py-24 relative"
     >
       {serviceData.map((item, index) => (
-        <div key={index} className="flex flex-col items-center text-center">
+        <div key={index} className="flex flex-col items-center text-center relative">
+            <div className="absolute right-0">
+                <Image src={item.img} width={400} height={400} alt="" className="opacity-20" />
+            </div>
           <h2 className="text-black text-4xl lg:text-6xl font-bold">
             {item.title}
           </h2>
