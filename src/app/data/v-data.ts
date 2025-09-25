@@ -1,4 +1,4 @@
-import { Instagram, MessageCircle } from "lucide-react";
+import { ArrowBigRight, Instagram, MessageCircle } from "lucide-react";
 
 export const navbarData = [
     {
@@ -66,6 +66,39 @@ export const contactData = {
     description: "Entre em contato e vamos criar juntos um projeto que reflita sua visão, estilo e necessidades.",
     btnText: "Entre em contato",
 };
+
+export const faqData = [
+    {
+        title: "Perguntas Frequentes",
+        description: "Transparência é essencial: confira abaixo respostas rápidas sobre meu trabalho.",
+        faqQuestions: [
+            {
+                number: "01",
+                question: "Quais tipos de projetos você desenvolve?",
+                answer: "",
+                icon: ArrowBigRight
+            },
+            {
+                number: "02",   
+                question: "Oferece modelagem 3D e renderizações realistas?",
+                answer: "",
+                icon: ArrowBigRight
+            },
+            {
+                number: "03",   
+                question: "Você faz reuniões online para apresentar os projetos?",
+                answer: "",
+                icon: ArrowBigRight
+            },
+            {
+                number: "04",   
+                question: "Como funciona o orçamento dos serviços?",
+                answer: "",
+                icon: ArrowBigRight
+            }
+        ]
+    }
+]
 
 export const footerData = [
     {
