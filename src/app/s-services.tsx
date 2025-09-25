@@ -1,32 +1,36 @@
 import { serviceData } from "./data/v-data";
 
 export function HomeServices() {
-    return (
-        <>
-        <section className="max-w-[1440px] mx-auto p-8 mt-10 lg:mt-[100px]" id="services">
-            {serviceData.map((item, index) => {
-                return (
-                    <div key={index}>
-                        <div className="flex flex-col justify-center items-center gap-4">
-                            <h1 className="text-black text-[50px] lg:text-[60px] text-center">{item.title}</h1>
-                            <p className="text-[#5A5A5A] text-base lg:text-xl text-center w-full lg:max-w-[951px]">{item.description}</p>
-                            <figure>
-                                {item.cards.map((card, idx) => {
-                                    return (
-                                        <div key={idx}>
-                                            <figure className="flex flex-col justify-start gap-6 border lg:border-l-gray-200 border-t-gray-200">
-                                                <h1 className="text-black text-[36px] font-medium">{card.title}</h1>
-                                                <p className="text-[#5A5A5A] text-start w-full lg:max-w-[323px] text-base lg:text-xl">{card.description}</p>
-                                            </figure>
-                                        </div>
-                                    )
-                                })}
-                            </figure>
-                        </div>
-                    </div>
-                )
-            })}
-        </section>
-        </>
-    )
+  return (
+    <section
+      id="services"
+      className="max-w-[1440px] mx-auto px-6 lg:px-8 py-12 lg:py-24"
+    >
+      {serviceData.map((item, index) => (
+        <div key={index} className="flex flex-col items-center text-center">
+          <h2 className="text-black text-4xl lg:text-6xl font-bold">
+            {item.title}
+          </h2>
+          <p className="text-[#5A5A5A] text-base lg:text-xl mt-4 max-w-3xl">
+            {item.description}
+          </p>
+          <div className="mt-12 grid gap-8 lg:grid-cols-3 w-full lg:border lg:border-t-gray-200">
+            {item.cards.map((card, idx) => (
+              <div
+                key={idx}
+                className="flex flex-col gap-4 border-t lg:border-t-0 lg:border-l border-gray-300 px-4 pt-6 lg:px-6 lg:pt-0 mt-3"
+              >
+                <h3 className="text-black text-2xl lg:text-3xl font-semibold text-start">
+                  {card.title}
+                </h3>
+                <p className="text-[#5A5A5A] text-base lg:text-lg text-start max-w-[323px]">
+                  {card.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+  );
 }
