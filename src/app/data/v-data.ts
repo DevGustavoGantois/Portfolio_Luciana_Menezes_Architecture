@@ -1,4 +1,4 @@
-import { ArrowRight, Instagram, MessageCircle } from "lucide-react";
+import { ArrowRight, Instagram, MessageCircle, Star } from "lucide-react";
 
 export const navbarData = [
     {
@@ -32,6 +32,31 @@ export const navbarData = [
     }
 ];
 
+export const heroData = {
+    bgHero: "/project2.png",
+    draw: "draw-house-2.svg",
+    icon: Star,
+    hate: "+5 avaliações",
+    pretitle: "de clientes que confiaram no meu trabalho",
+    title: "Transforme seu espaço comigo",
+    description: "Transformo ideias em espaços autênticos. Arquitetura que une estética, funcionalidade e identidade.",
+    hrefBtnText: "#services",
+    btnText: "Saiba mais",
+    hrefProject: "#projects",
+    btnProject: "Ver projetos",
+    tools: [
+        {
+        tool: "tool1.svg"  
+        },
+        {
+        tool: "tool2.svg"  
+        },
+        {
+        tool: "tool3.svg"  
+        },
+    ]
+}
+
 export const aboutData = {
     title: "Sobre mim",
     description: "Me chamo Luciana Menezes estou no 4 semestre de arquitetura e urbanismo tenho grande interesse por projetos estruturais, buscando sempre unir funcionalidade e beleza arquitetônica.",
@@ -58,7 +83,7 @@ export const serviceData = [
             },
         ]
     }
-]
+];
 
 export const contactData = {
     href: "#",
