@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lato, Bodoni_Moda_SC } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "./global/navbar";
+import { Footer } from "./global/footer";
 
 const lato = Lato({
   variable: "--font-lato",
@@ -36,6 +37,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
