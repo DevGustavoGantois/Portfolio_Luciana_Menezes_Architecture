@@ -1,4 +1,4 @@
-import { ArrowBigRight, Instagram, MessageCircle } from "lucide-react";
+import { ArrowRight, Instagram, MessageCircle } from "lucide-react";
 
 export const navbarData = [
     {
@@ -76,25 +76,25 @@ export const faqData = [
                 number: "01",
                 question: "Quais tipos de projetos você desenvolve?",
                 answer: "",
-                icon: ArrowBigRight
+                icon: ArrowRight
             },
             {
                 number: "02",   
                 question: "Oferece modelagem 3D e renderizações realistas?",
                 answer: "",
-                icon: ArrowBigRight
+                icon: ArrowRight
             },
             {
                 number: "03",   
                 question: "Você faz reuniões online para apresentar os projetos?",
                 answer: "",
-                icon: ArrowBigRight
+                icon: ArrowRight
             },
             {
                 number: "04",   
                 question: "Como funciona o orçamento dos serviços?",
                 answer: "",
-                icon: ArrowBigRight
+                icon: ArrowRight
             }
         ]
     }
