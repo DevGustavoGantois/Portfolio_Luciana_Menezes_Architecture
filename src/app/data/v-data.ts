@@ -1,3 +1,5 @@
+import { Instagram, MessageCircle } from "lucide-react";
+
 export const navbarData = [
     {
         logo: "/Logo.svg",
@@ -64,3 +66,45 @@ export const contactData = {
     description: "Entre em contato e vamos criar juntos um projeto que reflita sua visão, estilo e necessidades.",
     btnText: "Entre em contato",
 };
+
+export const footerData = [
+    {
+        logo: "Logo-white.svg",
+        href: "/",
+        imgBg: "",
+        description: "Criando espaços únicos que unem estética, funcionalidade e identidade, projetados para refletir a personalidade de cada cliente e proporcionar experiências memoráveis em cada detalhe arquitetônico.",
+        navLinks: [
+            {
+                href: "#home",
+                name: "Início",
+            },
+            {
+                href: "#about",
+                name: "Sobre mim",
+            },
+            {
+                href: "#projects",
+                name: "Projetos",
+            },
+            {
+                href: "#services",
+                name: "Serviços"
+            },
+            {
+                href: "#faq",
+                name: "Perguntas Frequentes"
+            },
+        ],
+        socialLinks: [
+            {
+                href: "https://www.instagram.com/arq.lucianamenezes/",
+                icon: Instagram
+            },
+            {
+                href: "#",
+                icon: MessageCircle
+            },
+        ],
+        copyright: "© 2025 @devgustavogantois_ — Arquitetura & Engenharia. Todos os direitos reservados. Em parceria com Luciana Menezes, Arquiteta."
+    }
+]
