@@ -18,7 +18,7 @@ export function HomeServices() {
           <p className="text-[#5A5A5A] text-base lg:text-xl mt-4 max-w-3xl">
             {item.description}
           </p>
-          <div className="mt-12 grid gap-8 lg:grid-cols-3 w-full lg:border lg:border-t-gray-200">
+          <div className="mt-12 grid gap-8 lg:grid-cols-3 w-full lg:border-t lg:border-t-gray-200">
             {item.cards.map((card, idx) => (
               <div
                 key={idx}
