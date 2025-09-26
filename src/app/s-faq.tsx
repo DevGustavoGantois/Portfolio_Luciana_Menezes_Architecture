@@ -10,10 +10,10 @@ export function HomeFAQ() {
                         key={index}
                     >
                         <div className="flex cursor-pointer w-full max-w-[1440px] mx-auto flex-col justify-center items-center gap-2">
-                            <h1 className="text-white text-[50px] lg:text-[60px] font-semibold text-center">
+                            <h1 data-aos="flip-up" className="text-white text-[50px] lg:text-[60px] font-semibold text-center">
                                 {item.title}
                             </h1>
-                            <p className="text-center text-white/70">{item.description}</p>
+                            <p data-aos="flip-up" data-aos-delay="100" className="text-center text-white/70">{item.description}</p>
 
                             <div className="mt-5 lg:mt-11 w-full lg:max-w-8xl flex flex-col gap-4">
                                 {item.faqQuestions.map((info, idx) => (

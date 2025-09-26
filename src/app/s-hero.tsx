@@ -12,24 +12,24 @@ export function HomeHero() {
                 <article className="flex flex-col justify-center lg:justify-start gap-4 relative">
                     <div className="flex flex-col justify-center items-center lg:items-start">
                         <figure className="flex flex-col items-center lg:items-start justify-center lg:justify-start gap-2">
-                            <figure className="flex items-center lg:items-start gap-2">
+                            <figure data-aos="fade-down" className="flex items-center lg:items-start gap-2">
                                 {Icon && <Icon className="text-black" size={24} />}
                                 <p className="text-black text-base lg:text-xl text-center lg:text-start">
                                     {heroData.hate}
                                 </p>
                             </figure>
-                            <p className="text-[#B2B2B2] text-base text-center lg:text-start">
+                            <p data-aos="fade-down" data-aos-delay="100" className="text-[#B2B2B2] text-base text-center lg:text-start">
                                 {heroData.pretitle}
                             </p>
                         </figure>
                         <div className="flex flex-col justify-center items-center lg:items-start gap-4 mt-4">
-                            <h1 className="text-black text-[50px] lg:text-[60px] w-full max-w-[398px] font-bold text-center lg:text-start">
+                            <h1 data-aos="fade-up" data-aos-delay="200" className="text-black text-[50px] lg:text-[60px] w-full max-w-[398px] font-bold text-center lg:text-start">
                                 {heroData.title}
                             </h1>
-                            <p className="text-base lg:text-xl text-[#5A5A5A] w-full lg:max-w-[398px] text-center lg:text-start">
+                            <p data-aos="fade-down" data-aos-delay="300" className="text-base lg:text-xl text-[#5A5A5A] w-full lg:max-w-[398px] text-center lg:text-start">
                                 {heroData.description}
                             </p>
-                            <div className="flex justify-center lg:justify-start gap-2">
+                            <div data-aos="fade-down" className="flex justify-center lg:justify-start gap-2">
                                 <Link href={heroData.hrefBtnText}>
                                     <button className="bg-black cursor-pointer text-white text-base lg:text-xl transition-all duration-700 hover:-translate-y-2 py-2 px-[28px]">
                                         {heroData.btnText}

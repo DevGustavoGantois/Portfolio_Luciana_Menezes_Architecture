@@ -12,13 +12,13 @@ export function HomeServices() {
             <div className="absolute right-0">
                 <Image src={item.img} width={400} height={400} alt="" className="opacity-20" />
             </div>
-          <h2 className="text-black text-4xl lg:text-6xl font-bold">
+          <h2 data-aos="fade-down" className="text-black text-4xl lg:text-6xl font-bold">
             {item.title}
           </h2>
-          <p className="text-[#5A5A5A] text-base lg:text-xl mt-4 max-w-3xl">
+          <p data-aos="fade-down" data-aos-delay="100" className="text-[#5A5A5A] text-base lg:text-xl mt-4 max-w-3xl">
             {item.description}
           </p>
-          <div className="mt-12 grid gap-8 lg:grid-cols-3 w-full lg:border-t lg:border-t-gray-200">
+          <div data-aos="fade-down" data-aos-delay="200" className="mt-12 grid gap-8 lg:grid-cols-3 w-full lg:border-t lg:border-t-gray-200">
             {item.cards.map((card, idx) => (
               <div
                 key={idx}
