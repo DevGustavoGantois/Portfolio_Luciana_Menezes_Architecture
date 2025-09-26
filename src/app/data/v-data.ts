@@ -63,6 +63,17 @@ export const aboutData = {
     btnText: "Saiba mais",
 };
 
+export const projectData = {
+    title: "ARQUIETTURA EM DETALHES",
+    description: "Cada projeto aqui apresentado traduz sonhos em espaços reais, pensados para atender às necessidades e ao estilo de vida de cada cliente.",
+    btnText: "Entre em contato",
+    projects: [
+        {
+
+        },
+    ]
+}
+
 export const serviceData = [
     {
         title: "Serviços",
