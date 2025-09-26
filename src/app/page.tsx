@@ -1,4 +1,5 @@
 
+"use client";
 import { HomeCarouselFunctions } from "./c-carousel";
 import { HomeAbout } from "./s-about";
 import { HomeContact } from "./s-contact";

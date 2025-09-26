@@ -7,7 +7,7 @@ export function HomeHero() {
     const Icon = heroData.icon;
 
     return (
-        <section className="max-w-[1440px] mx-auto p-8 relative">
+        <section className="max-w-[1440px] mx-auto p-8 relative" id="home">
             <div className="flex flex-col justify-center items-center lg:items-start lg:flex-row lg:justify-between gap-11">
                 <article className="flex flex-col justify-center lg:justify-start gap-4 relative">
                     <div className="flex flex-col justify-center items-center lg:items-start">
