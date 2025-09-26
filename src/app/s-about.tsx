@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export function HomeAbout() {
     return (
-        <section className="w-full border-t border-b border-gray-300 mt-10 lg:mt-[100px] p-8">
+        <section className="w-full border-t border-b border-gray-300 mt-10 lg:mt-[180px] p-8">
         <div className="max-w-[1440px] mx-auto p-8">
             <div className="flex flex-col lg:flex-row justify-start items-start lg:justify-between gap-4">
                 <h1 className="text-black text-[50px] font-semibold lg:text-[60px]">{aboutData.title}</h1>
