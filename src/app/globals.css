@@ -3,6 +3,19 @@
 
 @custom-variant dark (&:is(.dark *));
 
+::-webkit-scrollbar {
+  background: #ffff;
+  border-radius: 9999px;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E0D7C6;
+  border-radius: 9999px;
+  width: 12px;
+}
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -127,4 +140,5 @@ h1, h2, h3, h4, h5, h6 {
   body {
     @apply bg-background text-foreground;
   }
+  
 }
