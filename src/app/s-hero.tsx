@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { heroData } from "./data/v-data";
 import Image from "next/image";
+import CircularText from "@/components/c-circular-text";
 
 export function HomeHero() {
     const Icon = heroData.icon;
@@ -71,8 +72,13 @@ export function HomeHero() {
                         alt="Hero illustration"
                         className="w-full h-full"
                     />
-                    <div className="absolute bottom-0 right-4">
-
+                    <div className="mt-8 lg:mt-0 lg:absolute lg:left-0 -bottom-20">
+                        <CircularText
+                            text="PROJETOS*ARQUITETONICOS*"
+                            onHover="speedUp"
+                            spinDuration={20}
+                            className="custom-class"
+                            />
                     </div>
                 </figure>
             </div>
