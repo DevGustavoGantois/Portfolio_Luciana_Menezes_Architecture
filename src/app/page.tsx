@@ -1,3 +1,5 @@
+
+import { HomeCarouselFunctions } from "./c-carousel";
 import { HomeAbout } from "./s-about";
 import { HomeContact } from "./s-contact";
 import { HomeFAQ } from "./s-faq";
@@ -8,6 +10,7 @@ export default function Page() {
   return (
     <>
     <HomeHero />
+    <HomeCarouselFunctions />
     <HomeAbout />
     <HomeServices />
     <HomeFAQ />
