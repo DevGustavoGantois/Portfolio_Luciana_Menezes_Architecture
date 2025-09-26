@@ -3,6 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
   background: #ffff;
   border-radius: 9999px;
