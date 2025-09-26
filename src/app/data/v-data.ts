@@ -25,7 +25,7 @@ export const navbarData = [
                 name: "Perguntas Frequentes"
             },
             {
-                href: "#",
+                href: "#contact",
                 btnText: "Contato"
             }
         ]
