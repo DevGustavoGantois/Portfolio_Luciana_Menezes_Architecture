@@ -10,6 +10,7 @@ import { useEffect } from "react";
 //library
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { CustomCursor } from "@/components/c-custom-cursor";
 
 export default function Page() {
 
@@ -23,7 +24,7 @@ export default function Page() {
   return (
     <>
     <div className="hidden md:flex">
-      
+      <CustomCursor />
     </div>
     <HomeHero />
     <HomeCarouselFunctions />
