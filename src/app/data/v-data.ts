@@ -66,37 +66,37 @@ export const aboutData = {
 export const projectData = {
     title: "ARQUIETTURA EM DETALHES",
     description: "Cada projeto aqui apresentado traduz sonhos em espaços reais, pensados para atender às necessidades e ao estilo de vida de cada cliente.",
-    href: "",
+    href: "https://wa.me/557196127391?text=Ol%C3%A1%20Luciana!%20Queria%20solicitar%20um%20or%C3%A7amento%20para%20o%20meu%20projeto,%20podemos%20conversar?!",
     btnText: "Entre em contato",
     projects: [
         {
             btnText: "Fale comigo!",
             description: "Entre em contato para desenvolver o seu projeto!",
-            href: "",
+            href: "https://wa.me/557196127391?text=Ol%C3%A1%20Luciana!%20Queria%20solicitar%20um%20or%C3%A7amento%20para%20o%20meu%20projeto,%20podemos%20conversar?!",
             img: "/project1.png",
         },
         {
             btnText: "Fale comigo!",
             description: "Entre em contato para desenvolver o seu projeto!",
-            href: "",
+            href: "https://wa.me/557196127391?text=Ol%C3%A1%20Luciana!%20Queria%20solicitar%20um%20or%C3%A7amento%20para%20o%20meu%20projeto,%20podemos%20conversar?!",
             img: "/project2.png",
         },
         {
             btnText: "Fale comigo!",
             description: "Entre em contato para desenvolver o seu projeto!",
-            href: "",
+            href: "https://wa.me/557196127391?text=Ol%C3%A1%20Luciana!%20Queria%20solicitar%20um%20or%C3%A7amento%20para%20o%20meu%20projeto,%20podemos%20conversar?!",
             img: "/project3.png",
         },
         {
             btnText: "Fale comigo!",
             description: "Entre em contato para desenvolver o seu projeto!",
-            href: "",
+            href: "https://wa.me/557196127391?text=Ol%C3%A1%20Luciana!%20Queria%20solicitar%20um%20or%C3%A7amento%20para%20o%20meu%20projeto,%20podemos%20conversar?!",
             img: "/project4.png",
         },
         {
             btnText: "Fale comigo!",
             description: "Entre em contato para desenvolver o seu projeto!",
-            href: "",
+            href: "https://wa.me/557196127391?text=Ol%C3%A1%20Luciana!%20Queria%20solicitar%20um%20or%C3%A7amento%20para%20o%20meu%20projeto,%20podemos%20conversar?!",
             img: "/project5.png",
         },
 
@@ -126,7 +126,7 @@ export const serviceData = [
 ];
 
 export const contactData = {
-    href: "#",
+    href: "https://wa.me/557196127391?text=Ol%C3%A1%20Luciana!%20Queria%20solicitar%20um%20or%C3%A7amento%20para%20o%20meu%20projeto,%20podemos%20conversar?!",
     title: "Transforme suas ideias em realidade",
     description: "Entre em contato e vamos criar juntos um projeto que reflita sua visão, estilo e necessidades.",
     btnText: "Entre em contato",
@@ -199,7 +199,7 @@ export const footerData = [
                 icon: Instagram
             },
             {
-                href: "#",
+                href: "https://wa.me/557196127391?text=Ol%C3%A1%20Luciana!%20Queria%20solicitar%20um%20or%C3%A7amento%20para%20o%20meu%20projeto,%20podemos%20conversar?!",
                 icon: MessageCircle
             },
         ],
