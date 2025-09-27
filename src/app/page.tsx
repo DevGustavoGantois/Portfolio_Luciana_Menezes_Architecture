@@ -13,6 +13,7 @@ import "aos/dist/aos.css";
 import { CustomCursor } from "@/components/c-custom-cursor";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
+import { HomeProjects } from "./s-projects";
 
 export default function Page() {
 
@@ -66,6 +67,7 @@ export default function Page() {
       <HomeHero />
       <HomeCarouselFunctions />
       <HomeAbout />
+      <HomeProjects />
       <HomeServices />
       <HomeFAQ />
       <HomeContact />
