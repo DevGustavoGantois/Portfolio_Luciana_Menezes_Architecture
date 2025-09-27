@@ -22,7 +22,7 @@ export function Navbar() {
                 .map((item, idx) => (
                   <li
                     key={idx}
-                    className="text-[#5A5A5A] transition-all duration-700 hover:-translate-y-2"
+                    className="text-[#5A5A5A] transition-all text-xl duration-700 hover:-translate-y-2"
                   >
                     <Link href={item.href}>{item.name}</Link>
                   </li>

@@ -11,7 +11,7 @@ export function HomeAbout() {
                 <article className="flex flex-col justify-start gap-4">
                     <p data-aos="fade-up" data-aos-delay="100" className="text-start text-[#5A5A5A] w-full lg:max-w-[509px] text-base lg:text-xl">{aboutData.description}</p>
                 <button className="underline w-full transition-all duration-1000 hover:translate-x-4">
-                    <Link className="flex items-center gap-2 text-black" href="#services" target="_blank">
+                    <Link className="flex items-center gap-2 text-black" href="#services">
                         {aboutData.btnText}
                         <ArrowRight className="text-black -rotate-12" size={16} />
                     </Link>
