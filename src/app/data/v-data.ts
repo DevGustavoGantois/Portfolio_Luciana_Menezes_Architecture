@@ -111,25 +111,25 @@ export const faqData = [
             {
                 number: "01",
                 question: "Quais tipos de projetos você desenvolve?",
-                answer: "",
+                answer: "Desenvolvo projetos arquitetônicos residenciais, comerciais e de interiores, sempre adaptados às necessidades de cada cliente. ",
                 icon: ArrowRight
             },
             {
                 number: "02",   
                 question: "Oferece modelagem 3D e renderizações realistas?",
-                answer: "",
+                answer: " Sim! Utilizo modelagem 3D e renderizações realistas como ferramentas para que o cliente visualize o projeto com clareza antes da execução.",
                 icon: ArrowRight
             },
             {
                 number: "03",   
                 question: "Você faz reuniões online para apresentar os projetos?",
-                answer: "",
+                answer: "Sim, realizo reuniões online para apresentar as propostas e discutir cada detalhe. Isso facilita o processo, torna a comunicação mais prática e permite acompanhar o andamento do projeto de qualquer lugar.",
                 icon: ArrowRight
             },
             {
                 number: "04",   
                 question: "Como funciona o orçamento dos serviços?",
-                answer: "",
+                answer: "O orçamento é elaborado de forma personalizada, de acordo com o tipo e a complexidade do projeto. Após entender as necessidades do cliente e o escopo que será entregue, apresento uma proposta detalhada e transparente, sempre buscando a melhor relação entre qualidade e investimento.",
                 icon: ArrowRight
             }
         ]
