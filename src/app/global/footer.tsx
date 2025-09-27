@@ -62,9 +62,9 @@ export function Footer() {
                 </div>
             </div>
             <div className="w-full border-t border-white/20"></div>
-            <p className="relative text-white/70 text-base lg:text-xl tracking-wide text-center max-w-6xl mb-8">
+            <Link href="https://www.instagram.com/devgustavogantois_/" target="_blank" className="relative text-white/70 text-base lg:text-xl tracking-wide text-center max-w-6xl mb-8">
                 {item.copyright}
-            </p>
+            </Link>
             </div>
         ))}
         </div>
