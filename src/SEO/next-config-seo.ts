@@ -15,19 +15,19 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Luciana Menezes",
-      url: "https://www.lucianamenezes.com" 
+      url: "https://luciana-menezes-arquitetura.vercel.app/" 
     }
   ],
   creator: "Luciana Menezes",
   publisher: "Luciana Menezes Arquitetura",
-  metadataBase: new URL("https://www.lucianamenezes.com"), 
+  metadataBase: new URL("https://luciana-menezes-arquitetura.vercel.app/"), 
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Luciana Menezes Arquitetura | Projetos Modernos e Funcionais",
     description: "Descubra os projetos de arquitetura de Luciana Menezes. Designs modernos, funcionais e personalizados para residências, escritórios e espaços comerciais.",
-    url: "https://www.lucianamenezes.com",
+    url: "https://luciana-menezes-arquitetura.vercel.app/",
     siteName: "Luciana Menezes Arquitetura",
     type: "website",
     images: [
