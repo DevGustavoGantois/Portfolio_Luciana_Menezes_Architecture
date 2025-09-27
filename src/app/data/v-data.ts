@@ -70,34 +70,34 @@ export const projectData = {
     btnText: "Entre em contato",
     projects: [
         {
-            btnText: "Ver mais",
+            btnText: "Fale comigo!",
             description: "Entre em contato para desenvolver o seu projeto!",
             href: "",
-            img: "project1.png",
+            img: "/project1.png",
         },
         {
-            btnText: "Ver mais",
+            btnText: "Fale comigo!",
             description: "Entre em contato para desenvolver o seu projeto!",
             href: "",
-            img: "project2.png",
+            img: "/project2.png",
         },
         {
-            btnText: "Ver mais",
+            btnText: "Fale comigo!",
             description: "Entre em contato para desenvolver o seu projeto!",
             href: "",
-            img: "project3.png",
+            img: "/project3.png",
         },
         {
-            btnText: "Ver mais",
+            btnText: "Fale comigo!",
             description: "Entre em contato para desenvolver o seu projeto!",
             href: "",
-            img: "project4.png",
+            img: "/project4.png",
         },
         {
-            btnText: "Ver mais",
+            btnText: "Fale comigo!",
             description: "Entre em contato para desenvolver o seu projeto!",
             href: "",
-            img: "project5.png",
+            img: "/project5.png",
         },
 
     ]
