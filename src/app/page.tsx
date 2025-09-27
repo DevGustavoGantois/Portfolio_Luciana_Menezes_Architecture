@@ -22,6 +22,9 @@ export default function Page() {
 
   return (
     <>
+    <div className="hidden md:flex">
+      
+    </div>
     <HomeHero />
     <HomeCarouselFunctions />
     <HomeAbout />
