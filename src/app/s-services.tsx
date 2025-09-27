@@ -5,7 +5,7 @@ export function HomeServices() {
   return (
     <section
       id="services"
-      className="max-w-[1440px] mx-auto px-6 lg:px-8 py-12 lg:py-24 relative"
+      className="max-w-[1440px] mx-auto mt-10 lg:mt-[100px] px-6 lg:px-8 py-12 lg:py-24 relative"
     >
       {serviceData.map((item, index) => (
         <div key={index} className="flex flex-col items-center text-center relative">
