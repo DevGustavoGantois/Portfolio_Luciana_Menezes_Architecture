@@ -64,7 +64,7 @@ export const aboutData = {
 };
 
 export const projectData = {
-    title: "ARQUIETTURA EM DETALHES",
+    title: "ARQUITETURA EM DETALHES",
     description: "Cada projeto aqui apresentado traduz sonhos em espaços reais, pensados para atender às necessidades e ao estilo de vida de cada cliente.",
     href: "https://wa.me/557196127391?text=Ol%C3%A1%20Luciana!%20Queria%20solicitar%20um%20or%C3%A7amento%20para%20o%20meu%20projeto,%20podemos%20conversar?!",
     btnText: "Entre em contato",
