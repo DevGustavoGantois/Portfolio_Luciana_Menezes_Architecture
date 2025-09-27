@@ -16,7 +16,7 @@ import Image from "next/image";
 
 export default function Page() {
 
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
 
   useEffect(() => {
@@ -39,7 +39,7 @@ export default function Page() {
             animate={{ y: 0 }}
             exit={{ y: "100%" }}
             transition={{ duration: 1, ease: "easeInOut" }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-[#F4F1EC]"
           >
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
