@@ -21,7 +21,7 @@ export function HomeFAQ() {
                                         key={idx}
                                         className="border-b border-white/30 p-4 group"
                                     >
-                                        <summary className="flex items-center justify-between cursor-pointer">
+                                        <summary className="flex items-center justify-between cursor-pointer transition-all duration-700 hover:translate-x-6">
                                             <div className="flex justify-center items-center gap-3">
                                                 <h3 className="text-white text-2xl lg:text-[32px] font-bold">
                                                     {info.number}
