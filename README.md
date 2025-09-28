@@ -44,5 +44,5 @@ Mockup do Projeto (exportado do Figma)
 
 👉 Eu deixei a parte de imagem assim:  
 
-```markdown
+
 ![Mockup do Portfólio](/figmaproject.png)
