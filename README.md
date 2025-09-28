@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Luciana Menezes – Portfólio de Arquitetura  
 
-## Getting Started
+Este repositório contém o **portfólio digital da arquiteta Luciana Menezes**, desenvolvido para apresentar seus projetos de forma profissional, responsiva e otimizada para SEO.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Sobre o Projeto  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O portfólio foi idealizado para ser um espaço online onde clientes e parceiros possam conhecer:  
+- Projetos **residenciais**, com foco em bem-estar e conforto.  
+- Projetos **comerciais**, pensados para funcionalidade e identidade de marca.  
+- Projetos de **interiores**, destacando a harmonia entre espaço, materiais e iluminação.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Cada detalhe do portfólio reflete a sensibilidade arquitetônica de Luciana, traduzida em soluções únicas para cada cliente.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tecnologias Utilizadas  
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js** → Estrutura moderna para aplicações React, com renderização otimizada.  
+- **Tailwind CSS** → Estilização rápida, responsiva e consistente.  
+- **Framer Motion** → Animações fluidas e interativas.  
+- **Google Fonts** → Tipografia personalizada para reforçar identidade visual.  
+- **SEO e Indexação** → Configurado com metadata do Next.js e integrado ao **Google Search Console**.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌐 Funcionalidades  
 
-## Deploy on Vercel
+- **Design Responsivo** → Adaptado para smartphones, tablets, laptops e desktops.  
+- **Navegação Intuitiva** → Estrutura simples e clara, facilitando a experiência do usuário.  
+- **SEO Avançado** → HTML semântico, meta tags otimizadas e integração com o Search Console.  
+- **Galeria de Projetos** → Exibição em destaque dos principais trabalhos.  
+- **Contato Direto** → Link rápido para WhatsApp e formulário de contato.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📸 Prévia
+Mockup do Projeto (exportado do Figma)
+
+👉 Acesse o portfólio online
+
+---
+
+👉 Eu deixei a parte de imagem assim:  
+
+```markdown
+![Mockup do Portfólio](./public/images/FigmaProject.png)
