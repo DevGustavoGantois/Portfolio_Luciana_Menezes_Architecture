@@ -2,7 +2,7 @@
 
 Este repositório contém o **portfólio digital da arquiteta Luciana Menezes**, desenvolvido para apresentar seus projetos de forma profissional, responsiva e otimizada para SEO.  
 
-<img src="public/figmaproject.png" alt="Mockup do Portfólio" />
+<img src="/figmaproject.png" alt="Mockup do Portfólio" />
 
 ---
 
