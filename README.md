@@ -34,15 +34,3 @@ Cada detalhe do portfólio reflete a sensibilidade arquitetônica de Luciana, tr
 - **Contato Direto** → Link rápido para WhatsApp e formulário de contato.  
 
 ---
-
-📸 Prévia
-Mockup do Projeto (exportado do Figma)
-
-👉 Acesse o portfólio online
-
----
-
-👉 Eu deixei a parte de imagem assim:  
-
-
-![Mockup do Portfólio](/figmaproject.png)
